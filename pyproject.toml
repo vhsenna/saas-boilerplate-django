@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "saas-boilerplate-django"
+version = "0.1.0"
+description = ""
+authors = ["Victor Senna <vhsenna@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+pip-audit = "^2.7.3"
+pytest = "^8.2.2"
+pytest-cov = "^5.0.0"
+ruff = "^0.5.1"
+prospector = "^1.10.3"
+django = "^5.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
